@@ -1,24 +1,67 @@
-#sidemenu
-{
-    text-align: left;
-    font-size: 12pt;
-    float: absolute;
-    left: 0px;
-    top: 0px;
-    border: 0px solid #FFFFFF;
-    background-color: #FFFFFF;
-    color: black;
-    width: 5cm;
+#home {
+    margin: 0 auto;
+    width: 90%;/*原始65*/
+    min-width: 980px;/*页面顶部的宽度*/
+    background-color: rgba(225, 225, 225, 0.4);
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 }
-body
-{
-    background-color: #dbdbdb;
+body {
+    background: #fff  url("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2969707448,4264276642&fm=26&gp=0.jpg") fixed repeat;  
+   background-position:center;
 }
-a
-{
-    color: #3498db;
+#blogTitle h1{
+    font-family:华文彩云 微软雅黑;
+    text-align: center;
+margin:0;
+width:100%;
 }
-button
-{
-    color: #0e90d2;
+#blogTitle h1 a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#blogTitle h2{
+    color: gray;
+    float: right;
+     width:100px;
+}
+#navList li a:hover{
+    background-color: coral;
+}
+.dayTitle{
+    font-size: 14px;
+}
+.dayTitle a{
+    float: right;
+}
+.dayTitle a:hover{
+    color: tomato;
+    text-decoration: none;
+}
+.postTitle{
+    color: rgb(86, 165, 12);
+}
+.postTitle a:hover{
+    color:red;
+}
+.c_b_p_desc {
+    color: rgb(59, 60, 121);
+}
+.c_b_p_desc a{color:red}
+.c_b_p_desc a:hover{
+    color: green;
+}
+#nav_next_page{
+    border: 2px red solid;
+ 
+    font-weight: bold;
+display: inline-block;
+}
+.catListTitle{
+    background: pink;
+}
+#sidebar_search{
+    display: none;
 }
